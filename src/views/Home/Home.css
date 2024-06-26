@@ -1,0 +1,26 @@
+.main-image{
+    margin: 0 auto;
+    display: flex;
+
+    width: 90%;
+    height: 800px;
+
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+.img{
+    height: 200px;
+    border-radius: 8px;
+    margin: 20px;
+    
+}
+
+.img:hover{
+    
+    transform: scale(1.1);
+    transition: 1s;
+}
